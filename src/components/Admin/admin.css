@@ -1,0 +1,63 @@
+.admin-container {
+    width: 433px;
+    padding: 25px 30px;
+}
+
+.flex-box {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.kalendar {
+    width: 353px;
+    margin-top: 40px;
+}
+
+.week-box {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+
+.week-number {
+    margin-top: 20px;
+}
+
+.week-number-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.number-box {
+    display: flex;
+    gap: 38px;
+    margin-top: 20px;
+}
+
+#number-elevn {
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.sciences-box {
+    width: 353px;
+    margin-top: 15px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.span {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
