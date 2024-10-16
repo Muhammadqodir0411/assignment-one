@@ -56,8 +56,28 @@
 
 .span {
     background-color: blue;
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
+}
+
+.relative-container {
+    position: relative;
+}
+
+.bacgroun-box {
+    width: 100%;
+    height: auto;
+}
+
+.absalyut-p {
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 353px;
+    height: 43px;
+    background-color: white;
+
 }
 

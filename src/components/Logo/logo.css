@@ -5,7 +5,7 @@
 }
 
 .logout-box {
-    margin-top: 450px;
+    margin-top: 430px;
 }
 .dashboard-box {
     display: flex;
@@ -15,6 +15,6 @@
     width: 196px;
     height: 49px;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
     border-radius: 10px;
 }

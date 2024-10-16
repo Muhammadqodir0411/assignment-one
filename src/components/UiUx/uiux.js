@@ -17,14 +17,14 @@ import comment from '../../assets/comment.png'
 const uiux = () => {
   return (
     <div className='uiux-container px-4'>
-      <div className='flex gap-6 mt-4'>
+      <div className='flex items-center gap-6 mt-4'>
         <div>
-          <h2 className='text-2xl'>Welcome, Alexa A.</h2>
-          <p className='text-zinc-500'>Have a good day!</p>
+          <h2 className='text-2xl'><strong>Welcome, Alexa A.</strong></h2>
+          <p className='text-zinc-400 mt-2'>Have a good day!</p>
         </div>
 
         <div className='ui-input-box'>
-          <img src={luppa} alt="luppa" width={20} height={20} />
+          <img src={luppa} alt="luppa" width={24} height={24} />
           <input className='ui-input' type="text" placeholder='Search' />
         </div>
 
@@ -48,67 +48,67 @@ const uiux = () => {
 
       <div className='mt-11'>
         <div className='flex justify-between'>
-          <h4 className='text-zinc-500 text-2xl'>My Classes</h4>
+          <h4 className='text-zinc-500 text-2xl'><strong>My Classes</strong></h4>
           <p className='text-blue-600 text-1xl'>See all</p>
         </div>
       </div>
 
       <div className='mt-8 flex gap-4'>
         <div className='interaction-box'>
-          <div className='flex justify-between'>
-            <h4>Interaction</h4>
+          <div className='flex items-center justify-between'>
+            <h4 className='text-2xl'>Interaction</h4>
             <img src={more} alt="more" width={24} height={24} />
           </div>
           <p className='mt-3 text-zinc-500'>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Varius</p>
 
-          <div className='flex gap-3 mt-8'>
+          <div className='flex items-center gap-3 mt-8'>
             <img src={frame} alt="frame-img" width={18} height={18} />
             <p className='text-zinc-400'>Wadew Warren</p>
           </div>
 
           <div className='flex justify-between'>
-            <div className='flex gap-3 mt-4'>
+            <div className='flex items-center gap-3 mt-4'>
               <img src={stick} alt="stick-img" width={18} height={18} />
               <p className='text-zinc-400'>B classes</p>
             </div>
-            <div className='flex gap-3 mt-4'>
+            <div className='flex items-center gap-3 mt-4'>
               <img src={timers} alt="timer-img" width={18} height={18} />
               <p className='text-zinc-400'>3 Hours</p>
             </div>
           </div>
           <div className='mt-5 flex justify-between'>
             <img src={persons} alt="persons-img" width={102} height={36} />
-            <div className='flex gap-3'>
+            <div className='flex items-center gap-3'>
               <p className='text-zinc-400'>20</p>
               <img src={comment} alt="cooment-img" width={24} height={24} />
             </div>
           </div>
         </div>
         <div className='interaction-box'>
-          <div className='flex justify-between'>
-            <h4>Interaction</h4>
+          <div className='flex items-center justify-between'>
+            <h4 className='text-2xl'>Interaction</h4>
             <img src={more} alt="more" width={24} height={24} />
           </div>
           <p className='mt-3 text-zinc-500'>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Varius</p>
 
-          <div className='flex gap-3 mt-8'>
+          <div className='flex items-center gap-3 mt-8'>
             <img src={frame} alt="frame-img" width={18} height={18} />
             <p className='text-zinc-400'>Wadew Warren</p>
           </div>
 
           <div className='flex justify-between'>
-            <div className='flex gap-3 mt-4'>
+            <div className='flex items-center gap-3 mt-4'>
               <img src={stick} alt="stick-img" width={18} height={18} />
               <p className='text-zinc-400'>B classes</p>
             </div>
-            <div className='flex gap-3 mt-4'>
+            <div className='flex items-center gap-3 mt-4'>
               <img src={timers} alt="timer-img" width={18} height={18} />
               <p className='text-zinc-400'>3 Hours</p>
             </div>
           </div>
           <div className='mt-5 flex justify-between'>
             <img src={persons} alt="persons-img" width={102} height={36} />
-            <div className='flex gap-3'>
+            <div className='flex items-center gap-3'>
               <p className='text-zinc-400'>20</p>
               <img src={comment} alt="cooment-img" width={24} height={24} />
             </div>

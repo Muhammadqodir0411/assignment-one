@@ -20,29 +20,29 @@ const logo = () => {
           <p className='text-white text-2xl'>Dashboard</p>
         </div>
 
-        <div className='flex mt-4 px-3 gap-4'>
+        <div className='flex items-center mt-4 px-3 gap-4'>
           <img src={calendar} alt="calendar" width={20} height={20} />
           <p className='text-zinc-300'><strong>Schedule</strong></p>
         </div>
-        <div className='flex mt-5 px-3 gap-4'>
+        <div className='flex items-center mt-5 px-3 gap-4'>
           <img src={homewrok} alt="homewrok" width={20} height={20} />
           <p className='text-zinc-300'><strong>Homewrok</strong></p>
         </div>
-        <div className='flex mt-5 px-3 gap-4'>
+        <div className='flex items-center mt-5 px-3 gap-4'>
           <img src={message} alt="calendar" width={20} height={20} />
           <p className='text-zinc-300'><strong>Message</strong></p>
         </div>
-        <div className='flex mt-5 px-3 gap-4'>
+        <div className='flex items-center mt-5 px-3 gap-4'>
           <img src={group} alt="group" width={20} height={20} />
           <p className='text-zinc-300'><strong>Group</strong></p>
         </div>
-        <div className='flex mt-5 px-3 gap-4'>
+        <div className='flex items-center mt-5 px-3 gap-4'>
           <img src={settings} alt="settings" width={20} height={20} />
           <p className='text-zinc-300'><strong>Settings</strong></p>
         </div>
 
 
-        <div className='flex px-3 gap-4 logout-box'>
+        <div className='flex items-center px-3 gap-4 logout-box'>
           <img src={logout} alt="logout" width={24} height={24} />
           <p className='text-zinc-300'><strong>Logout</strong></p>
         </div>

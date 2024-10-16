@@ -15,7 +15,7 @@ const admin = () => {
                 <img src={bell} alt="bell-img" width={52} height={52} />
                 <img src={admins} alt="admin" width={52} height={52} />
             </div>
-            <div className='flex justify-between mt-5'>
+            <div className='flex items-center justify-between mt-5'>
                 <h3 className='text-3xl'><strong>July, 2021</strong></h3>
                 <img src={btn} alt="btn-img" width={77} height={36} />
             </div>
@@ -132,16 +132,18 @@ const admin = () => {
                     <img src={right} alt="right-img" width={14} height={14} />
                 </div>
 
-                <div className='sciences-box'>
-                    <div className='flex items-center gap-4'>
+                <div className='sciences-box relative-container'>
+                    <div className='flex items-center gap-4 bacgroun-box'>
                         <p className='span'></p>
                         <div>
                             <h4><strong>Physical classes</strong></h4>
                             <p className='text-zinc-400'>Tika sarak s.pd</p>
+                            <p className='absalyut-p'></p>
                         </div>
                     </div>
                     <img src={right} alt="right-img" width={14} height={14} />
                 </div>
+                
             </div>
         </div>
     )
